@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>My First Website!</title>
+    <link rel="shortcut icon" href="images/favicon.ico?v=2" type="image/x-icon">
+    <style>
+        .image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    </style>
+    
+    <meta name = "Description"
+      content="This is the first website I am developing this semester.">
+  </head>
+  <body>
+    <table cellspacing="15">
+        <tr>
+            <td>
+                <img src="https://picsum.photos/200" alt="" class="image"> 
+            </td>
+            <td><h1>Hello, I am Ulviyya 💜</h1></td>
+        </tr>
+    </table>
+    <style>
+        body {
+            background: rgba(219, 176, 236, 0.925);
+        }
+    </style>
+    <hr>
+    <h2>To be bio</h2>
+    <p>
+        I am an IT student and in this course my main goal is to learn how to design websites by using html. 
+    </p>
+    <hr>
+    <h2>Skills</h2>
+    <table>
+        <tr>
+            <td>C Programming Language</td>
+            <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Java Programing Language</td>
+            <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Cisco Routing and Switching</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Korean</td>
+            <td>⭐</td>
+        </tr>
+        
+    </table>
+    <hr>
+    <h2>Hobbies</h2>
+    <p>
+        <ul>
+            <li> <a href = "https://www.youtube.com/watch?v=UmIYanq5gH8" target="_blank">Swimming</a></li>
+            <li>Listening to music</li>
+            <li>Cooking
+                <ul>
+                    <li><a href = "https://www.youtube.com/watch?v=7VTtenyKRg4" target="_blank">One of the desserts that I like to make</a>
+                </ul>
+            </li>
+               
+        </ul>
+    </p>
+    <hr>
+    <a href="ContactMe.html" target="_blank"> Contact me!</a>
+    <a href="Education.html" target="_blank"> Education!</a>
+    <h3>External links</h3>
+      <a href="https://www.youtube.com/watch?v=qCTMq7xvdXU" target="_blank">This is one of my favorite songs!</a>
+    
+    
+  </body>
+
+</html>
