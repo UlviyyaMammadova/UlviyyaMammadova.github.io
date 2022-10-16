@@ -1,0 +1,84 @@
+body{
+    background-color: #937DC2;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    width: 90%;
+    margin: 50px auto;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.italic-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+a:hover{
+    font-size: 110%;
+    background-color: #FFE6F7;
+}
+
+.hr-style{
+    border-style: none;
+    border-top: 3px dotted white;
+}
+
+#education {
+    border-collapse: collapse;
+  width: 100%;
+}
+
+#education td, #education th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #education tr:hover {background-color: rgb(255, 255, 255);}
+
+  #education th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #C689C6;
+    color: white;
+  }
+
+.listStyle{
+    list-style-type: circle;
+}
+
+input{
+    background-color: #937DC2;
+    border-color: black;
+    border: 1px solid;
+    
+}
+::placeholder{
+    color:rgb(39, 37, 37);
+}
+
+textarea{
+    background-color: #937DC2;
+    border-color: black;
+}
+
+.submit {
+    color: #000000;
+    background-color: #7661a3;
+}
+
+
+
+
+
+
