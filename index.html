@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class = "information">
+            <div class="current-date">
+                <div class="time" id="time">
+                    6:43 <span id="clock-type">PM</span>
+                </div>
+                <div class="date" id="date">
+                    Friday, 2 December
+                </div>
+                <div class="description" id="current-description">
+                    <div class="weather-elements">
+                        <div>Humidity</div>
+                        <div>58%</div>
+                    </div>
+                    <div class="weather-elements">
+                        <div>Pressure</div>
+                        <div>100</div>
+                    </div>
+                    <div class="weather-elements">
+                        <div>Wind Speed</div>
+                        <div>89</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="city-info">
+                <div class="time-zone" id="time-zone">Baku</div>
+                <div class="country" id="country">AZ</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="upcoming-forecast">
+        <div class="today" id="current-weather">
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="icon">
+            <div class="today-items">
+              <div class="day">Monday</div>
+              <div class="temperature">Morning - 10&#176; C</div>
+              <div class="temperature">Night - 6&#176; C</div>
+            </div>
+            
+        </div>
+        <div class="other-days" id="other-days">
+            <div class="future-elements">
+              <div class="day">Tuesday</div>
+              <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="icon">
+              <div class="temperature">Morning - 10&#176;C</div>
+              <div class="temperature">Night - 6&#176;C</div>
+            </div>
+            <div class="future-elements">
+                <div class="day">Wednesday</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="icon">
+                <div class="temperature">Morning - 10&#176;C</div>
+                <div class="temperature">Night - 6&#176;C</div>
+            </div>
+            <div class="future-elements">
+                <div class="day">Thursday</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="icon">
+                <div class="temperature">Morning - 10&#176;C</div>
+                <div class="temperature">Night - 6&#176;C</div>
+            </div>
+            <div class="future-elements">
+                <div class="day">Friday</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="icon">
+                <div class="temperature">Morning - 10&#176;C</div>
+                <div class="temperature">Night - 6&#176;C</div>
+            </div>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
