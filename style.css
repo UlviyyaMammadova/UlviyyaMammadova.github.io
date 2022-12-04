@@ -42,7 +42,7 @@ body{
     text-align: end;
 }
 
-.city-info .time-zone{
+.city-info .cityName{
     font-size: 30px;
     font-weight: 100;
 }
